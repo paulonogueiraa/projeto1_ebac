@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+header {
+    padding: 1,5% 0;
+    background-color: black;
+    color: white;
+}
+
+#Impetus-Logo {
+    max-width: 10%;
+    border: none;
+}
+
+.social-links img {
+    max-width: 2%;
+    border: 0;
+}
+
+header,
+h2,
+h3 {
+    font-family: 'Abril Fatface', cursive;
+    color: white;
+    font-weight: normal;
+}
+
+header nav li {
+    display: inline;
+    margin: 1,5%;
+    font-size: 1,5%;
+}
+
+header nav li a {
+    text-decoration: none;
+    color: white;
+}
+
+header nav li a:hover {
+    color: blueviolet;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container {
+    max-width: 67%;
+    width: 100%;
+    margin: 0 auto;
+}
+
+body {
+    background: url(./images/detailed_grunge_texture_background_2307.jpg);
+}
+
+section {
+    padding: 2% 0;
+
+}
+
+.social-links li {
+    display: inline;
+    margin-right: 8px;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 17%;
+    margin-bottom: 1%;
+    padding: 1%;
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+}
+
+form button:hover {
+    background-color: purple;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 16px 0;
+}
